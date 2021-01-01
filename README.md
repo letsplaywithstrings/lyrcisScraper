@@ -52,7 +52,7 @@ It will return a string
 
 If you want get song lyrics of spesific artist, use the following funciton below.You must define song capacity.
 ```phyton
-def scrape_artists_songs(artistname,songcapacity)
+scrape_artists_songs(artistname,songcapacity)
 ```
 It will return a dictionary.
 

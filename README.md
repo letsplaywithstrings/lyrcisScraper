@@ -3,12 +3,10 @@ You can scrape song lyrics that you want.
 ## Getting Started
 You can get lyrics easily with this small module.Also, you can get all artists whose name begins with specific letter with this module.Furthermore this module can get all song lyrics of artists whose name is begin with spesific letter.
 ## Prerequisites and Installing
-You need install requests and BeautifulSoup, You can install with following codes below.
+You need install this module with the following code below from pypi.
 ```
-pip install BeautifulSoup
-pip install requests
+pip install lyricsScraper
 ```
-Also you can run setup.py. It will install prerequisites.
 ## Usage
 If you want get all artists whose name is begin with spesific letter, use the following function below.
 ```phyton

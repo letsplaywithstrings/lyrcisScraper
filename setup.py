@@ -16,7 +16,7 @@ author_email='ahmet.metin817@gmail.com',
 url='https://github.com/letsplaywithstrings/lyrcisScraper',
 download_url=f'https://github.com/letsplaywithstrings/lyrcisScraper/archive/{VERSION}.tar.gz',
 keywords=['Lyrics', 'Artist',],
-install_requires=['requests','BeautifulSoup'],
+install_requires=['requests','BeautifulSoup4'],
 classifiers=[
 'Development Status :: 4 - Beta',
 'Intended Audience :: Developers',

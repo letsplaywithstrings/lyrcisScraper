@@ -3,7 +3,7 @@ import setuptools
 VERSION = "1.0.0"
 long_description = ""
 with open("README.md", "r", encoding="utf-8") as file:
-  long_description = file.read()
+	long_description = file.read()
 setup(
 name='lyricsScraper', 
 packages=setuptools.find_packages(),
@@ -16,7 +16,7 @@ author_email='ahmet.metin817@gmail.com',
 url='https://github.com/letsplaywithstrings/lyrcisScraper',
 download_url=f'https://github.com/letsplaywithstrings/lyrcisScraper/archive/{VERSION}.tar.gz',
 keywords=['Lyrics', 'Artist',],
-install_requires=['requests','BeautifulSoup4'],
+install_requires=['requests','BeautifulSoup'],
 classifiers=[
 'Development Status :: 4 - Beta',
 'Intended Audience :: Developers',

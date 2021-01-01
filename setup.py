@@ -3,7 +3,7 @@ import setuptools
 VERSION = "1.0.1"
 long_description = ""
 with open("README.md", "r", encoding="utf-8") as file:
-long_description = file.read()
+  long_description = file.read()
 setup(
 name='lyricsScraper', 
 packages=setuptools.find_packages(),

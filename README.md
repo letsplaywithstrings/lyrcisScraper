@@ -8,6 +8,14 @@ You need install this module with the following code below from pypi.
 pip install lyricsScraper
 ```
 ## Usage
+
+**First of all, you must import this module to your py projects by the following code below.**
+```phyton
+from lyricsScraper import lyricsScraper
+```
+
+-------------------------------------------------------------------------
+
 If you want get all artists whose name is begin with spesific letter, use the following function below.
 ```phyton
 artist_with_letter(letter)

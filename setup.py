@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as file:
 	long_description = file.read()
 setup(
 name='lyricsScraper', 
-packages=setuptools.find_packages(),
+packages=['lyricsScraper'],
 version=VERSION,
 description='You can get lyrics from genius with many usefull functions.',
 long_description=long_description,

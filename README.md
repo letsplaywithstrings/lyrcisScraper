@@ -1,7 +1,7 @@
 # lyrcisScraper
 You can scrape song lyrics that you want.
 ## Getting Started
-You can get lyrics easily with this small module.Also, you can get all artists whose name begins with specific letter with this module.Furthermore this module can get all song lyrics of artists whose name is begin with spesific letter.
+You can get lyrics easily with this small module.Also, you can get all artists whose name begins with specific letter with this module.Furthermore this module can get all song lyrics of artists whose name is begin with specific letter.
 ## Prerequisites and Installing
 You need install this module with the following code below from pypi.
 ```
@@ -16,7 +16,7 @@ from lyricsScraper import lyricsScraper
 
 -------------------------------------------------------------------------
 
-If you want get all artists whose name is begin with spesific letter, use the following function below.
+If you want get all artists whose name is begin with specific letter, use the following function below.
 ```phyton
 artist_with_letter(letter)
 ```
@@ -40,7 +40,7 @@ It will return as a string.
 
 -------------------------------------------------------------------------
 
-If you want scrape all song lyrics whose artist name is begin with spesific letter, use the following function below.You must define song capacity of each artist.
+If you want scrape all song lyrics whose artist name is begin with specific letter, use the following function below.You must define song capacity of each artist.
 ```phyton
 scrape_data(firstLetterOfArtist,songCapacityOfEachArtist)
 ```
